@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="241dp"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="116dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="78dp"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="116dp"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="76dp"
+        app:srcCompat="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="133dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="79dp"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/prev"
+        android:layout_width="112dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="551dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="73dp"
+        app:srcCompat="@drawable/prev" />
+
+    <TextView
+        android:id="@+id/song"
+        android:layout_width="271dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="657dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView" />
+</RelativeLayout>
